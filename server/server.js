@@ -15,11 +15,7 @@ app.use(express.static(`${__dirname}/../public`))
 
 app.get('/', (req,res) => {
     // console.log(__dirname)
-    try {
-        nonExistentFunction();
-      } catch (error) {
-        rollbar.error(error);
-      }
+    
     res.status(200).sendFile(path.join(__dirname, '../public/index.html'))
   
 })
