@@ -1,11 +1,11 @@
 {
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "rollbar": "^2.26.0"
   },
   "name": "deployment",
   "version": "1.0.0",
   "main": "server/server.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
